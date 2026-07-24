@@ -1,0 +1,10 @@
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://169.254.8.1:3000
+- Environments: .env.local, .env
+✓ Ready in 588ms
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+
+○ Compiling / ...
+ GET / 200 in 13.1s (next.js: 11.9s, proxy.ts: 111ms, application-code: 1179ms)
+ GET / 200 in 139ms (next.js: 5ms, proxy.ts: 8ms, application-code: 126ms)
