@@ -13,15 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Input } from "@/components/ui/input";
 import { toast } from "sonner";
-import {
-  Plus,
-  Trash2,
-  Server,
-  Globe,
-  Clock,
-  Activity,
-  AlertCircle,
-} from "lucide-react";
+import { Plus, Trash2, Server, Globe, Clock, Activity, CircleAlert as AlertCircle } from "lucide-react";
 
 interface Service {
   id: string;

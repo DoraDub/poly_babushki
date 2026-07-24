@@ -9,13 +9,7 @@ import {
   DialogDescription,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import {
-  ChefHat,
-  UtensilsCrossed,
-  BookmarkPlus,
-  Check,
-  Loader2,
-} from "lucide-react";
+import { ChefHat, UtensilsCrossed, BookmarkPlus, Check, Loader as Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { findWordsInText } from "@/lib/dictionary";
 import type { RecipeData, RecipeIngredient } from "@/lib/recipes";

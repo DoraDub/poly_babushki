@@ -2,14 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
-import {
-  Bookmark,
-  Trash2,
-  Loader2,
-  BookOpen,
-  ArrowLeft,
-  ExternalLink,
-} from "lucide-react";
+import { Bookmark, Trash2, Loader as Loader2, BookOpen, ArrowLeft, ExternalLink } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { LANGUAGES, getDefaultLanguage } from "@/lib/config";

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback } from "react";
-import { BookmarkPlus, Check, Loader2 } from "lucide-react";
+import { BookmarkPlus, Check, Loader as Loader2 } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { findWordsInText } from "@/lib/dictionary";

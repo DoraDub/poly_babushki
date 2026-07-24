@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { Sparkles, User, Loader2, Globe, ChevronRight } from "lucide-react";
+import { Sparkles, User, Loader as Loader2, Globe, ChevronRight } from "lucide-react";
 import { toast } from "sonner";
 import { saveLocalProfile } from "@/lib/local-profile";
 import { saveLocalPreferences } from "@/lib/local-preferences";

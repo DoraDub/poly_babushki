@@ -2,21 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
-import {
-  BookOpen,
-  Newspaper,
-  Flame,
-  Clock,
-  ArrowLeft,
-  Play,
-  Square,
-  Trophy,
-  Languages,
-  Lock,
-  CheckCircle2,
-  ChevronRight,
-  Star,
-} from "lucide-react";
+import { BookOpen, Newspaper, Flame, Clock, ArrowLeft, Play, Square, Trophy, Languages, Lock, CircleCheck as CheckCircle2, ChevronRight, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";

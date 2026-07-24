@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
-import { Sparkles, BarChart3, ChefHat, BookOpen } from "lucide-react";
+import { Sparkles, ChartBar as BarChart3, ChefHat, BookOpen } from "lucide-react";
 import { BridgeProvider } from "@/components/bridge-provider";
 import { Toaster } from "@/components/ui/sonner";
 import { StreakDisplay } from "@/components/streak-display";

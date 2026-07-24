@@ -10,14 +10,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
-import {
-  MessageCircle,
-  Send,
-  Languages,
-  Lightbulb,
-  Loader2,
-  Sparkles,
-} from "lucide-react";
+import { MessageCircle, Send, Languages, Lightbulb, Loader as Loader2, Sparkles } from "lucide-react";
 import { incrementLocalStreak } from "@/lib/local-streak";
 
 interface ChatMessage {

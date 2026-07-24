@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from "react";
 import Link from "next/link";
-import { ChefHat, ArrowLeft, Loader2, Bookmark } from "lucide-react";
+import { ChefHat, ArrowLeft, Loader as Loader2, Bookmark } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { LANGUAGES, getDefaultLanguage } from "@/lib/config";
